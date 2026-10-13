@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  background: #1e1e2f;
+  color: #fff;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background: #2c2c3e;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.cards, .charts {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.card.blue   { background: linear-gradient(135deg,#2193b0,#6dd5ed); }
+.card.purple { background: linear-gradient(135deg,#6a11cb,#2575fc); }
+.card.green  { background: linear-gradient(135deg,#56ab2f,#a8e063); }
+
+.chart {
+  flex: 1;
+  background: #2c2c3e;
+  padding: 15px;
+  border-radius: 8px;
+}
